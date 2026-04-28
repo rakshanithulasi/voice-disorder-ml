@@ -31,6 +31,4 @@ The system classifies voice inputs as **healthy** or **disordered** based on ext
 - Add noise reduction techniques  
 - Develop web-based interface for real-time usage  
 
-## 👩‍💻 Author
-Rakshani T
 
