@@ -1,32 +1,36 @@
-# voice-disorder-ml
-Project on Identification of Voice Disorderliness using Machine Learning Algorithm. Work in progress with focus on audio feature extraction, classification, and disorder prediction.
+# 🎤 Voice Disorder Detection using Machine Learning
 
-# Identification of Voice Disorderliness using Machine Learning Algorithm
+## 📌 Description
+This project focuses on detecting voice disorders by analyzing recorded voice samples using machine learning techniques.  
+The system classifies voice inputs as **healthy** or **disordered** based on extracted audio features.
 
-This project focuses on detecting voice disorderliness by analyzing recorded voice samples using **Machine Learning algorithms**.  
-It aims to classify voices as **healthy** or **disordered**, and further identify the type of disorder in future enhancements.
+## 🚀 Features
+- Voice input processing
+- Audio feature extraction (MFCC, spectral features)
+- Machine learning-based classification
+- Predicts whether the voice is healthy or disordered
 
-## ✨ Features
-- Voice recording and dataset creation
-- Audio feature extraction (MFCCs, spectral features)
-- Machine Learning model for classification (Logistic Regression, SVM, etc.)
-- Output: Predicts whether the input voice is healthy or shows disorderliness
+## 🛠 Tech Stack
+- Python  
+- Libraries: librosa, scikit-learn, pandas  
+- (Planned) Flask for web interface  
 
-## 📌 Current Status
-- Dataset preparation completed
-- Implemented basic feature extraction
-- Preliminary ML model setup in progress
+## ⚙️ How It Works
+1. Collect voice samples  
+2. Extract features using MFCC  
+3. Train ML model  
+4. Predict output based on input voice  
 
-## 🚀 Next Steps
-- Improve model accuracy with advanced algorithms (e.g., Random Forest, Deep Learning)
-- Add noise reduction & better preprocessing
-- Build a simple **web interface** for end-user interaction
+## 📊 Current Progress
+- Dataset preparation completed  
+- Feature extraction implemented  
+- Initial ML model developed  
 
-## 🛠️ Tech Stack
-- **Programming Language:** Python  
-- **Libraries & Tools:** librosa, scikit-learn, pandas, Flask (planned)  
+## 🔮 Future Improvements
+- Improve model accuracy using deep learning (CNN)  
+- Add noise reduction techniques  
+- Develop web-based interface for real-time usage  
 
----
-
-🔹 *Note: This is an academic project and currently a work in progress.*  
+## 👩‍💻 Author
+Rakshani T
 
